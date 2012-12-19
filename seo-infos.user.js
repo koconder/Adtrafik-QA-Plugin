@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Canonicals & Robots
-// @namespace     http://www.facesaerch.com/
+// @namespace     http://www.fullstackoptimization.com/
 // @description   Shows important SEO head information (canonical, meta robots, http response headers).
 // @include       *
 // ==/UserScript==
