@@ -1,5 +1,6 @@
 // ==UserScript==
-// @name          Canonicals & Robots 0.1
+// @name          Canonicals & Robots
+// @version       0.1
 // @namespace     http://www.fullstackoptimization.com/
 // @description   Shows important SEO head information (canonical, meta robots, http response headers).
 // @include       *
