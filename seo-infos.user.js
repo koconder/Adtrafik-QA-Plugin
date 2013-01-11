@@ -4,6 +4,12 @@
 // @namespace     http://www.fullstackoptimization.com/
 // @description   Shows important SEO head information (canonical, meta robots, http response headers).
 // @icon          http://www.fullstackoptimization.com/assets/ico/apple-touch-icon.png
+// @exclude       *.facebook.com*
+// @exclude       *wp-admin*
+// @exclude       *.jpg
+// @exclude       *.gif
+// @exclude       *.png
+// @exclude       *.pdf
 // @include       *
 // ==/UserScript==
 
@@ -246,12 +252,16 @@ function base() {
 }
 
 if (r.length > 0) {
+    if (window.top != window.self)  //don't run on frames or iframes
+        return;
     base();
     get_canonical();
     get_robots();
 }
 
 if (r.length == 0) {
+    if (window.top != window.self)  //don't run on frames or iframes
+        return;
     base();
     get_canonical();
 }
