@@ -214,7 +214,7 @@ function minimize() {
 function set_actions() {
     var brnd = document.createElement('div');
     brnd.setAttribute('class', 'cdb-brand');
-    brnd.innerHTML = '<a href="http://www.fullstackoptimization.com"><img width="10" height="10" alt="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQtQTFRFf5IAcIEAaHgAZXQAZHMAZHMAY3IAYG4AV2QAPEYASlUAVGAAdIUAfpEAQUsAQUoAQ00AUV0AfpEAhZgAiJwAh5sASVQARlEAgpUAf5IARVAAgpYAQkwAhpoAS1YAS1YAfpAAfZAAQ00ASFMASVQAU18Ae44AfpAAgJMAhZkAQ00AhZkAhZkAQ00AQ00ARE8AQEoATVkAhJgAhZkAhJgAhZkAhZkBXGoAYnAAZXQAY3IAZ3YAbH0AP0gAiZ0ASlUAQEoASlYAh5sAhZkAf5IASVQATFgAS1cAU18Ae44AfI8AQUoATVkAg5cAhpsAiJwAh5wATVgARU8AgZQAQkwAP0kAhZoAhpoA////4MNIlAAAADd0Uk5TDzlzrufutHQ2C+P+/d79/Pz+/vz8/eb+/ub6+fn65v7+5v38/P7+/Pz93v7jCzZ0tO7nrnM5D19uDC0AAAABYktHRFjttcSOAAAACXBIWXMAAABIAAAASABGyWs+AAAAdklEQVQI12NgYGRiZmFlY+fgZODiNrewtLK24eFl4LPlFxAUEhaxE2UQsxd3cHRylnCRZJBydXP38PT0cpFmkPH2dvDx9fMPkGWQC5QPCvQNVvBUZFAKUlZRVVPX8NVk0FIKCXUPcwrX1mHQ1dM3MDQyNjE1AwBQBhI+0tE5gQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxMi0xMi0yMVQxNjowNTozMy0wNTowMLqNURAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTItMTItMjFUMTY6MDU6MzMtMDU6MDDL0OmsAAAAAElFTkSuQmCC" />f19n.com</a>';
+    brnd.innerHTML = '<a href="http://www.fullstackoptimization.com">f19n.com</a>';
     var nav = document.createElement('div');
     nav.setAttribute('class', 'cdb-nav');
     // show more button
