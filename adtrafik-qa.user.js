@@ -1,16 +1,11 @@
 // ==UserScript==
-// @name          Canonicals & Robots
+// @name          Adtrafik SEO QA Plugin
 // @version       0.1
-// @namespace     http://www.fullstackoptimization.com/
-// @description   Shows important SEO head information (canonical, meta robots, http response headers).
+// @namespace     http://www.adtrafik.com/
+// @description   Shows important SEO head information for QA.
 // @icon          http://www.fullstackoptimization.com/assets/ico/apple-touch-icon.png
-// @exclude       *.facebook.com*
-// @exclude       *wp-admin*
-// @exclude       *.jpg
-// @exclude       *.gif
-// @exclude       *.png
-// @exclude       *.pdf
-// @include       *
+// @include       *.pokerstars.*
+// @include       *.fulltiltpoker.*
 // ==/UserScript==
 
 
@@ -53,8 +48,8 @@ GM_addStyle('\
         display:block;\
         text-transform:uppercase;\
         letter-spacing:1px;\
-        border-bottom:1px solid #859900;\
-        color:#859900;\
+        border-bottom:1px solid #FF9914;\
+        color:#FF9914;\
         font-style:normal;\
         font-weight:bold;\
         padding-bottom:2px;\
@@ -214,7 +209,7 @@ function minimize() {
 function set_actions() {
     var brnd = document.createElement('div');
     brnd.setAttribute('class', 'cdb-brand');
-    brnd.innerHTML = '<a href="http://www.fullstackoptimization.com">f19n.com</a>';
+    brnd.innerHTML = 'Adtrafik QA Bar';
     var nav = document.createElement('div');
     nav.setAttribute('class', 'cdb-nav');
     // show more button
