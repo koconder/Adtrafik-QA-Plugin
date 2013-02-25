@@ -72,7 +72,7 @@ GM_addStyle('\
     #canonicaldebug-s .actns {\
         margin-top:5px;\
         padding:5px 10px;\
-        background:#859900;\
+        background:#FF9914;\
         color: #323232;\
         text-align: right;\
         border-bottom-left-radius: 5px;\
